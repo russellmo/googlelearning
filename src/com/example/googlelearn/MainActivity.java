@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
 	CheckableFrameLayout mAddScheduleButton;
 	boolean mStarred = false;
 	TextView tv;
-	TextView tv2;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -125,7 +125,7 @@ public class MainActivity extends ActionBarActivity {
     int mTagColorDotSize;
 	
     private void setYuandian(TextView chipView){ 
-    	/**TextView≈‘±ﬂ…Ë÷√‘≠µ„*/
+    	/**TextView√Ö√î¬±√ü√â√®√ñ√É√î¬≠¬µ√£*/
          chipView.setText("Android");
          mTagColorDotSize = getResources().getDimensionPixelSize(R.dimen.tag_color_dot_size);
              ShapeDrawable colorDrawable = new ShapeDrawable(new OvalShape());
