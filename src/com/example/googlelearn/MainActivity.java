@@ -29,6 +29,7 @@ public class MainActivity extends ActionBarActivity {
 	CheckableFrameLayout mAddScheduleButton;
 	boolean mStarred = false;
 	int a;
+	boolean isMo ;
 	TextView tv;
 	TextView tv3;
 	@Override
