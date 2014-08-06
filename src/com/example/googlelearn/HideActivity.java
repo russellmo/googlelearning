@@ -12,6 +12,6 @@ public class HideActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.view_b);
 		list = (ListView)findViewById(R.id.list);
-		
+		int a = 0;
 	}
 }
