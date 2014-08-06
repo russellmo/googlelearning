@@ -28,6 +28,7 @@ import com.example.googlelearn.widgt.CheckableFrameLayout;
 public class MainActivity extends ActionBarActivity {
 	CheckableFrameLayout mAddScheduleButton;
 	boolean mStarred = false;
+	int a;
 	TextView tv;
 	TextView tv3;
 	@Override
