@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.googlelearn.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <com.example.googlelearn.widgt.CheckableFrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/add_schedule_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/add_schedule_fab_background"
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:focusable="true"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/add_schedule_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/add_schedule_button_icon_unchecked" />
+    </com.example.googlelearn.widgt.CheckableFrameLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="32dip"
+        android:layout_below="@id/add_schedule_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/session_tag_chip"
+        android:clickable="true"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="show Auto Hide"
+        android:layout_below="@id/tv" />
+
+</RelativeLayout>
