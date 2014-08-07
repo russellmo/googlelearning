@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity {
 	TextView tv;
 	TextView tv3;
 	boolean isOk = false;
+	int b;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
