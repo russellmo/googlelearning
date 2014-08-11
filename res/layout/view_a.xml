@@ -30,9 +30,19 @@
     </com.example.googlelearn.widgt.CheckableFrameLayout>
 
     <com.example.googlelearn.BarChartView
+        android:id="@+id/barchart"
         android:layout_width="fill_parent"
         android:layout_height="70dip"
         android:layout_above="@id/add_schedule_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:gravity="center"
+        />
+    
+      <com.example.googlelearn.TrendChartView
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_above="@id/barchart"
         android:layout_centerHorizontal="true"
         android:layout_margin="10dip"
         android:gravity="center"
