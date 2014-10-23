@@ -36,17 +36,15 @@
         android:layout_above="@id/add_schedule_button"
         android:layout_centerHorizontal="true"
         android:layout_margin="10dip"
-        android:gravity="center"
-        />
-    
-      <com.example.googlelearn.TrendChartView
+        android:gravity="center" />
+
+    <com.example.googlelearn.TrendChartView
         android:layout_width="fill_parent"
         android:layout_height="70dip"
         android:layout_above="@id/barchart"
         android:layout_centerHorizontal="true"
         android:layout_margin="10dip"
-        android:gravity="center"
-        />
+        android:gravity="center" />
 
     <TextView
         android:id="@+id/tv"
@@ -69,5 +67,29 @@
         android:layout_below="@id/tv"
         android:layout_centerHorizontal="true"
         android:text="show Auto Hide" />
+
+    <com.example.googlelearn.CustomView
+          android:id="@+id/circle"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_below="@id/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:gravity="center" />
+    
+    
+    <ImageButton
+        android:id="@+id/fab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ripple"
+        android:src="@drawable/ic_launcher"
+         android:layout_below="@id/circle"
+        />
 
 </RelativeLayout>
